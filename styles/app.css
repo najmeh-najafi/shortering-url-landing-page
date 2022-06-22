@@ -1,6 +1,7 @@
 :root{
     --color-primary:#3A3054;
     --color-secondary:#2BD0D0;
+    --color-hover:#9ae3e3;
     --color-tertiary:#4B3F6B;
     --color-bg:#EFF1F7;
     --color-text-light:#9E9AA8;
@@ -8,4 +9,62 @@
 
     --font-poppins-regular:"poppins regular",sans-serif;
     --font-poppins-bold:"poppins bold",sans-serif;
+}
+
+.o-container{
+    width: 1108px;
+    margin: 0 auto;
+    position: relative;
+}
+.o-round-btn{
+   text-transform: capitalize;
+   background-color: var(--color-secondary);
+   border-radius: 28px;
+   color: #ffffff;
+   padding: 14px 40px;
+}
+.o-round-btn:hover{
+    background-color: var(--color-hover);
+}
+.u-d-flex{
+    display: flex;
+}
+.u-ai-center{
+    align-items: center;
+}
+.u-ai-baseline{
+    align-items: baseline;
+}
+.u-tt-capitalize{
+    text-transform: capitalize;
+}
+.u-gap-30{
+    gap: 30px;
+}
+.u-fs-15{
+    font-size: 0.93rem;
+}
+.u-transition-3{
+    transition: all 0.3s ease-in-out;
+}
+body{
+    color: var(--color-text-light);
+    font-family: var(--font-poppins-bold);
+}
+
+/* ------------------ start header -------------------- */
+.c-header{
+   padding-top: 48px;
+}
+.c-header-nav{
+    justify-content: space-between;
+}
+.c-main-menu{
+    gap:30px
+}
+.c-sign-up{
+    padding: 10px 23px;
+}
+.c-main-menu__link:hover,.c-log-in:hover{
+    color: var(--color-text-dark);
 }

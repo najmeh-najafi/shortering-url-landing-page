@@ -360,3 +360,14 @@
     margin: 0;
     box-sizing: inherit;
    }
+   a{
+    text-decoration: none;
+    color: inherit;
+   }
+   ul{
+    list-style: none;
+   }
+   button,input,input:hover,input:focus,button:hover,button:focus{
+      border: none;
+      outline: none;
+   }
