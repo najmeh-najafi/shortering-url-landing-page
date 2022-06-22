@@ -1,0 +1,11 @@
+:root{
+    --color-primary:#3A3054;
+    --color-secondary:#2BD0D0;
+    --color-tertiary:#4B3F6B;
+    --color-bg:#EFF1F7;
+    --color-text-light:#9E9AA8;
+    --color-text-dark:#34313D;
+
+    --font-poppins-regular:"poppins regular",sans-serif;
+    --font-poppins-bold:"poppins bold",sans-serif;
+}
