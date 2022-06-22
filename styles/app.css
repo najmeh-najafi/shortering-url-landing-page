@@ -26,6 +26,7 @@
 .o-round-btn:hover{
     background-color: var(--color-hover);
     cursor: pointer;
+    font-size: 1.25rem;
 }
 .o-title{
     color: var(--color-text-dark);
@@ -56,6 +57,9 @@
 .u-transition-3{
     transition: all 0.3s ease-in-out;
 }
+.u-jc-spacebetween{
+    justify-content: space-between;
+}
 body{
     color: var(--color-text-light);
     font-family: var(--font-poppins-bold);
@@ -71,11 +75,17 @@ body{
 .c-main-menu{
     gap:30px
 }
+.c-logo{
+    margin-right: 45px;
+}
 .c-sign-up{
     padding: 10px 23px;
 }
 .c-main-menu__link:hover,.c-log-in:hover{
     color: var(--color-text-dark);
+}
+.c-menu-wrapper{
+    flex-grow: 1;
 }
 .c-header-content{
     margin-top: 78px;
@@ -83,7 +93,7 @@ body{
     position: relative;
 }
 .c-header-content__box{
-    width: 565px;
+    width: 55%;
     padding-top:60px;
 }
 .c-header-content__title{
@@ -105,4 +115,7 @@ body{
     top: 0;
     right: 0;
     width: 43%;
+}
+.c-menu-btn{
+    display: none;
 }
