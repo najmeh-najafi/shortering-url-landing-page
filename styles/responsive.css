@@ -1,0 +1,25 @@
+.o-container{
+    width: 78%;
+}
+@media only screen and (min-width:576px) {
+    .o-container{
+        max-width: 540px;
+    }
+}
+@media only screen and (min-width:768px) {
+    .o-container{
+        max-width: 740px;
+    }
+}
+@media only screen and (min-width:992px) {
+    .o-container{
+        max-width: 960px;
+    }
+}
+@media only screen and (min-width:1200px) {
+    .o-container{
+        max-width: 1108px;
+    }
+}
+
+
