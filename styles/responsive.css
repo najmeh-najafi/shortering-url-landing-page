@@ -94,6 +94,27 @@
     .c-shorted-item__short-link,.c-shortend-item__link{
         padding: 6px 0;
     }
+    .c-statistics-sextion__wrapper{
+        flex-direction: column;
+        text-align: center;
+        gap:90px;
+    }
+    .c-statistics-box::before{
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .c-statistics-sextion__wrapper::before{
+        width: 8px;
+        height: 100%;
+        top:0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .c-box-two,.c-box-three{
+        margin-top: 0;
+    }
 }
 @media only screen and (max-width:768px){
     .c-heder-content__container{
