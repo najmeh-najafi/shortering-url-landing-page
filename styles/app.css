@@ -51,6 +51,9 @@
 .u-ai-baseline{
     align-items: baseline;
 }
+.u-flex-wrap{
+    flex-wrap: wrap;
+}
 .u-tt-capitalize{
     text-transform: capitalize;
 }
@@ -112,9 +115,10 @@ body{
     font-size: 1.37rem;
     margin: 5px 0 38px 0;
 }
-.c-header-content__img{
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 43%;
+.c-header-content__img-box{
+    width: 40%;
 }
+.c-header-content__img{
+    max-width: 170%;
+}
+

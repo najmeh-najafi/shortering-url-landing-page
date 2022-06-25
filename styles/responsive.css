@@ -43,6 +43,7 @@
         width: 100%;
         top:calc( 100% + 23px);
         z-index: 100;
+        display: none;
     }
     .c-main-menu{
         display: block;
@@ -57,6 +58,35 @@
         color: #ffffff;
         padding: 15px 0;
     }
+    .c-menu-btn{
+        font-size: 24px;
+        display: block;
+    }
+    
 }
+@media only screen and (max-width:768px){
+    .c-heder-content__container{
+        flex-wrap: wrap;
+    }
+    .c-header-content{
+        margin-top: 23px;
+        text-align: center;
+    }
+    .c-header-content__box{
+        width: 100%;
+        order: 1;
+    }
+    .c-header-content__img-box{
+        width: 100%;   
+    }
+}
+@media only screen and (max-width:576px){
+    /* .c-header-content{
+        margin-top: 23px;
+        text-align: center;
+        padding-top: 390px;
+    } */
+}
+
 
 

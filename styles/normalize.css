@@ -352,6 +352,7 @@
     min-height: 100vh;
     min-width: 320px;
     box-sizing: border-box;
+    overflow-x: hidden;
    }
    *,
    *::before,
