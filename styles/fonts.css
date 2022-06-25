@@ -8,3 +8,7 @@
     src: url(../fonts/Poppins-Medium.ttf);
     font-style: normal;
 }
+@font-face {
+    font-family: "poppins medium italic";
+    src: url(../fonts/Poppins-MediumItalic.ttf);
+}

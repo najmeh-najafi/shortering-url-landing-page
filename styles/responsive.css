@@ -31,6 +31,16 @@
         line-height: 30px;
         font-size: 1.12rem;
     }
+    /* ------------------------ shortner section ----------------------- */
+    .c-shortend-item{
+        font-size: 1rem;
+    }
+    .c-shortner__input{
+        font-size: 1rem;
+    }
+    .c-shortner__btn{
+        font-size: 1.125rem;
+    }
 }
 @media only screen and (max-width:992px) {
     .c-menu-wrapper{
@@ -67,7 +77,23 @@
         font-size: 24px;
         display: block;
     }
-    
+    .c-shortner__wrapper{
+        flex-direction: column;
+    }
+    .c-shortend-item{
+        display: block;
+        
+    }
+    .c-shorted-item__copy{
+        width: 100%;
+    }
+    .c-shortend-item__link{
+        border-bottom: 1px solid rgba(158, 154, 168, 0.25);
+        padding: 6px 0;
+    }
+    .c-shorted-item__short-link,.c-shortend-item__link{
+        padding: 6px 0;
+    }
 }
 @media only screen and (max-width:768px){
     .c-heder-content__container{

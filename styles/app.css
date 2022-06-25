@@ -6,9 +6,11 @@
     --color-bg:#EFF1F7;
     --color-text-light:#9E9AA8;
     --color-text-dark:#34313D;
+    --color-danger:#F46363;
 
     --font-poppins-medium:"poppins medium",sans-serif;
     --font-poppins-bold:"poppins bold",sans-serif;
+    --font-poppins-meduimItalic:"poppins medium italic",sans-serif;
 }
 
 .o-container{
@@ -22,11 +24,11 @@
    color: #ffffff;
    padding: 14px 40px;
    display: inline-block;
+   transition: all 0.3s;
 }
 .o-round-btn:hover{
     background-color: var(--color-hover);
     cursor: pointer;
-    font-size: 1.25rem;
 }
 .o-title{
     color: var(--color-text-dark);
@@ -57,8 +59,17 @@
 .u-tt-capitalize{
     text-transform: capitalize;
 }
+.u-full-width{
+    width: 100%;
+}
 .u-gap-30{
     gap: 30px;
+}
+.u-br-10{
+    border-radius: 10px;
+}
+.u-br-5{
+    border-radius: 5px;
 }
 .u-fs-15{
     font-size: 0.93rem;
@@ -121,5 +132,74 @@ body{
 .c-header-content__img{
     max-width: 170%;
 }
+/* ------------------- main section ----------------- */
+.c-main{
+    background-color: var(--color-bg);
+}
+.c-main-section{
+    padding-bottom: 80px;
+}
+.c-shortner{
+    /* height: 168px; */
+    background: url(../images/Path\ 2.png) center/cover no-repeat;
+    transform: translateY(-50%);
+    padding: 52px 64px;
+}
+.c-shortner__wrapper{
+      gap:24px;
+}
+
+.c-shortner__input{
+    height: 64px;
+    flex-grow: 1;
+    padding: 14px 32px;
+    font-family: var(--font-poppins-medium);
+    font-size: 1.25rem;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+}
+.c-shortner__btn{
+    height: 64px;
+}
+.c-shortner__message{
+    display: inline-block;
+    font-family: var(--font-poppins-meduimItalic);
+    color: var(--color-danger);
+    margin-top: 8px;
+    font-size: 1rem;
+}
+.c-shortner__input.js-invalid{
+    border: 3px solid var(--color-danger);
+}
+.js-invalid.c-shortner__input::placeholder{
+color: var(--color-danger);
+opacity: 50%;
+}
+.c-shortend-item{
+    background-color: #ffffff;
+    padding: 18px 32px;
+    transform: translateY(-50%);
+    font-size: 1.25rem;
+    line-height: 36px;
+    gap: 24px;
+    margin-bottom: 16px;
+}
+.c-shortend-item__link{
+    font-family: var(--font-poppins-medium);
+    color: var(--color-text-dark);
+    margin-right: auto;
+}
+.c-shorted-item__short-link{
+    font-family: var(--font-poppins-medium);
+    color: var(--color-secondary);
+}
+.c-shorted-item__copy{
+    transition: all 0.3s;
+    display: block;
+}
+.c-shorted-item__copy.click{
+  background-color: var(--color-primary);
+}
+
 
 
