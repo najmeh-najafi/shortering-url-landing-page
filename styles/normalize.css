@@ -368,7 +368,7 @@
    ul{
     list-style: none;
    }
-   button,input,input:hover,input:focus,button:hover,button:focus{
+   button,input,button:focus{
       border: none;
       outline: none;
    }

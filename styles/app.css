@@ -163,16 +163,20 @@ body{
     font-size: 1.25rem;
     line-height: 36px;
     letter-spacing: 0.15px;
+    transition: all 0.3s;
+    border:3px solid transparent
 }
 .c-shortner__btn{
     height: 64px;
 }
 .c-shortner__message{
+    height: 20px;
     display: inline-block;
     font-family: var(--font-poppins-meduimItalic);
     color: var(--color-danger);
     margin-top: 8px;
     font-size: 1rem;
+    transition: all 0.3s;
 }
 .c-shortner__input.js-invalid{
     border: 3px solid var(--color-danger);
@@ -189,6 +193,17 @@ opacity: 50%;
     line-height: 36px;
     gap: 24px;
     margin-bottom: 16px;
+    animation: show 0.5s;
+}
+@keyframes show {
+    0%{
+        opacity: 0;
+        visibility: hidden;
+    }
+    100%{
+        opacity: 1;
+        visibility: visible
+    }
 }
 .c-shortend-item__link{
     font-family: var(--font-poppins-medium);
