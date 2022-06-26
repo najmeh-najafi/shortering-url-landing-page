@@ -41,6 +41,10 @@
     .c-shortner__btn{
         font-size: 1.125rem;
     }
+    /* ---------------- footer -------------------- */
+    .c-social-medias{
+        justify-content:center;
+    }
 }
 @media only screen and (max-width:992px) {
     .c-menu-wrapper{
@@ -126,6 +130,18 @@
     .c-box-two,.c-box-three{
         margin-top: 0;
     }
+    .c-start-section__title{
+        font-size:28px;
+    }
+    /* ------------------ footer ------------------- */
+    .c-footer__container{
+        text-align: center;
+        
+    }
+    .c-footer__links-wrapper{
+        flex-grow: 1;
+        flex-wrap: wrap;
+    }
 }
 @media only screen and (max-width:768px){
     .c-heder-content__container{
@@ -144,7 +160,11 @@
     }
 }
 @media only screen and (max-width:576px){
-    
+    .c-footer__links-wrapper{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 
