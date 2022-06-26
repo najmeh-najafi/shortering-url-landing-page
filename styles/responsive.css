@@ -80,16 +80,27 @@
     .c-shortner__wrapper{
         flex-direction: column;
     }
+    .c-shortner {
+        padding: 24px;
+    }
+    .c-shortner__input{
+        font-size: 16px;
+        padding: 6px 16px;
+    }
     .c-shortend-item{
         display: block;
-        
+        padding: 16px;
     }
     .c-shorted-item__copy{
         width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
     .c-shortend-item__link{
         border-bottom: 1px solid rgba(158, 154, 168, 0.25);
         padding: 6px 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
     .c-shorted-item__short-link,.c-shortend-item__link{
         padding: 6px 0;
