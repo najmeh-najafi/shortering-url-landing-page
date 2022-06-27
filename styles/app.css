@@ -206,6 +206,9 @@ opacity: 50%;
     }
 }
 .c-shortend-item__link{
+    max-width: 60%;
+    overflow: hidden;
+    text-overflow: ellipsis;
     font-family: var(--font-poppins-medium);
     color: var(--color-text-dark);
     margin-right: auto;
@@ -213,10 +216,16 @@ opacity: 50%;
 .c-shorted-item__short-link{
     font-family: var(--font-poppins-medium);
     color: var(--color-secondary);
+    max-width: 25%;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .c-shorted-item__copy{
     transition: all 0.3s;
     display: block;
+    min-width: 100px;
+    white-space: nowrap;
+    padding: 14px 28px;
 }
 .c-shorted-item__copy.click{
   background-color: var(--color-primary);

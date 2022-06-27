@@ -102,12 +102,10 @@
     }
     .c-shortend-item__link{
         border-bottom: 1px solid rgba(158, 154, 168, 0.25);
-        padding: 6px 0;
-        overflow: hidden;
-        text-overflow: ellipsis;
     }
     .c-shorted-item__short-link,.c-shortend-item__link{
         padding: 6px 0;
+        max-width: 100%;
     }
     .c-statistics-sextion__wrapper{
         flex-direction: column;
