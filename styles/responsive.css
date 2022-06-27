@@ -73,6 +73,9 @@
         border-top: 1px solid var(--color-text-light);
         padding-top:30px;
     }
+    .c-header-nav__item:hover {
+        color: white;
+    }
     .c-header-nav__item{
         color: #ffffff;
         padding: 15px 0;
