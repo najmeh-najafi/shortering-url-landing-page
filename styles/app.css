@@ -163,16 +163,20 @@ body{
     font-size: 1.25rem;
     line-height: 36px;
     letter-spacing: 0.15px;
+    transition: all 0.3s;
+    border:3px solid transparent
 }
 .c-shortner__btn{
     height: 64px;
 }
 .c-shortner__message{
+    height: 20px;
     display: inline-block;
     font-family: var(--font-poppins-meduimItalic);
     color: var(--color-danger);
     margin-top: 8px;
     font-size: 1rem;
+    transition: all 0.3s;
 }
 .c-shortner__input.js-invalid{
     border: 3px solid var(--color-danger);
@@ -189,8 +193,22 @@ opacity: 50%;
     line-height: 36px;
     gap: 24px;
     margin-bottom: 16px;
+    animation: show 0.5s;
+}
+@keyframes show {
+    0%{
+        opacity: 0;
+        visibility: hidden;
+    }
+    100%{
+        opacity: 1;
+        visibility: visible
+    }
 }
 .c-shortend-item__link{
+    max-width: 60%;
+    overflow: hidden;
+    text-overflow: ellipsis;
     font-family: var(--font-poppins-medium);
     color: var(--color-text-dark);
     margin-right: auto;
@@ -198,10 +216,16 @@ opacity: 50%;
 .c-shorted-item__short-link{
     font-family: var(--font-poppins-medium);
     color: var(--color-secondary);
+    max-width: 25%;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .c-shorted-item__copy{
     transition: all 0.3s;
     display: block;
+    min-width: 100px;
+    white-space: nowrap;
+    padding: 14px 28px;
 }
 .c-shorted-item__copy.click{
   background-color: var(--color-primary);

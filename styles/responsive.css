@@ -73,6 +73,9 @@
         border-top: 1px solid var(--color-text-light);
         padding-top:30px;
     }
+    .c-header-nav__item:hover {
+        color: white;
+    }
     .c-header-nav__item{
         color: #ffffff;
         padding: 15px 0;
@@ -102,12 +105,10 @@
     }
     .c-shortend-item__link{
         border-bottom: 1px solid rgba(158, 154, 168, 0.25);
-        padding: 6px 0;
-        overflow: hidden;
-        text-overflow: ellipsis;
     }
     .c-shorted-item__short-link,.c-shortend-item__link{
         padding: 6px 0;
+        max-width: 100%;
     }
     .c-statistics-sextion__wrapper{
         flex-direction: column;
